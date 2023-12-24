@@ -1,0 +1,573 @@
+repo_name: comnori/vscode
+report_id: 95133ec4ffcda7c5e9898557c5af08bf
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-24T15:46:05+00:00'
+requested_by: Seboran
+provider: github
+branch: main
+detected_tools_count: 41
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: samples/vue/package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-23 03:29:09.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-13 09:35:06.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-07-24 07:55:51.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/samples/monorepo-no-root/packages/react/package.json
+  detection_source: samples/monorepo-no-root/packages/react/package.json
+  last_updated_by: Kitwang Chan
+  last_updated_on: 2022-07-01 08:46:16.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.2.31
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/samples/vue/package.json
+  detection_source: samples/vue/package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-23 03:29:09.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-13 09:35:06.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source: package.json
+  last_updated_by: Tristar
+  last_updated_on: 2023-05-18 01:46:25.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-13 09:35:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 9.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-13 09:35:06.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-13 09:35:06.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-05-18 22:45:20.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-13 09:35:06.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-05-17 16:24:11.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-05-17 16:35:08.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source: samples/monorepo-no-root/packages/react/package.json
+  last_updated_by: Kitwang Chan
+  last_updated_on: 2022-07-01 08:46:16.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: samples/vue/package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-23 03:29:09.000000000 Z
+- name: "@babel/parser"
+  description: A JavaScript parser
+  package_url: https://www.npmjs.com/@babel/parser
+  version: 7.21.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16932/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tristar
+  last_updated_on: 2023-05-18 01:46:25.000000000 Z
+- name: "@babel/types"
+  description: Babel Types is a Lodash-esque utility library for AST nodes
+  package_url: https://www.npmjs.com/@babel/types
+  version: 7.21.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16786/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: huwshimi
+  last_updated_on: 2023-11-14 02:12:38.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 9.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: huwshimi
+  last_updated_on: 2023-11-14 02:12:38.000000000 Z
+- name: "@types/glob"
+  description: TypeScript definitions for Glob
+  package_url: https://www.npmjs.com/@types/glob
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16391/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: huwshimi
+  last_updated_on: 2023-11-14 02:12:38.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 17.0.34
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: huwshimi
+  last_updated_on: 2023-11-14 02:12:38.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.41
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/samples/monorepo-no-root/packages/react/package.json
+  detection_source: samples/monorepo-no-root/packages/react/package.json
+  last_updated_by: Kitwang Chan
+  last_updated_on: 2022-07-01 08:46:16.000000000 Z
+- name: "@types/react-test-renderer"
+  description: TypeScript definitions for react-test-renderer
+  package_url: https://www.npmjs.com/@types/react-test-renderer
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16593/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/samples/monorepo-no-root/packages/react/package.json
+  detection_source: samples/monorepo-no-root/packages/react/package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-07-23 08:42:17.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  version: 7.3.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: huwshimi
+  last_updated_on: 2023-11-14 02:12:38.000000000 Z
+- name: "@types/ws"
+  description: TypeScript definitions for ws
+  package_url: https://www.npmjs.com/@types/ws
+  version: 8.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: huwshimi
+  last_updated_on: 2023-11-14 02:12:38.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: huwshimi
+  last_updated_on: 2023-11-14 02:12:38.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.25.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: huwshimi
+  last_updated_on: 2023-11-14 02:12:38.000000000 Z
+- name: "@vue/test-utils"
+  description: Utilities for testing Vue components
+  package_url: https://www.npmjs.com/@vue/test-utils
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16231/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/samples/vue/package.json
+  detection_source: samples/vue/package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-23 03:29:09.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-05-18 22:45:20.000000000 Z
+- name: fuse.js
+  description: Lightweight fuzzy-search
+  package_url: https://www.npmjs.com/fuse.js
+  version: 6.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17405/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-07-24 07:55:51.000000000 Z
+- name: get-port
+  description: Get an available port
+  package_url: https://www.npmjs.com/get-port
+  version: 6.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16732/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-05-17 17:17:43.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.1.6
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Christophe Geers
+  last_updated_on: 2023-01-25 11:37:29.000000000 Z
+- name: mime-types
+  description: The ultimate javascript content-type utility
+  package_url: https://www.npmjs.com/mime-types
+  version: 2.1.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/samples/monorepo-no-root/package.json
+  detection_source: samples/monorepo-no-root/package.json
+  last_updated_by: Kitwang Chan
+  last_updated_on: 2022-07-01 08:46:16.000000000 Z
+- name: minimatch
+  description: A glob matcher in javascript
+  package_url: https://www.npmjs.com/minimatch
+  version: 4.2.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Joseph Marshall
+  last_updated_on: 2022-05-23 18:58:46.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/samples/monorepo-no-root/packages/react/package.json
+  detection_source: samples/monorepo-no-root/packages/react/package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-07-23 08:42:17.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 5.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-05-17 16:24:11.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: tree-kill
+  description: Kill trees of processes
+  package_url: https://www.npmjs.com/tree-kill
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17621/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Matthew Lieder
+  last_updated_on: 2022-12-29 20:08:09.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 2.9.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2023-02-08 13:36:48.000000000 Z
+  vulnerabilities:
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 2.9.16
+  - name: Vitejs Vite before v2.9.13 vulnerable to directory traversal via crafted
+      URL to victim's service
+    cve_id: CVE-2022-35204
+    cve_url: https://github.com/advisories/GHSA-mv48-hcvh-8jj8
+    detected_date: Nov 23
+    severity: moderate
+    first_patched: 2.9.13
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.2.31
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/comnori/vscode/blob/main/samples/vue/package.json
+  detection_source: samples/vue/package.json
+  last_updated_by: Zixuan Chen
+  last_updated_on: 2022-03-23 03:29:09.000000000 Z
